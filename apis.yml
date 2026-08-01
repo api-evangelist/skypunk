@@ -1,7 +1,26 @@
 aid: skypunk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skypunk.png
 name: Skypunk
-description: Skypunk is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Skypunk is an independent game studio headquartered in San Diego, California,
+  founded in 2021 to build new science-fiction multiplayer games. The studio is
+  backed by Andreessen Horowitz (a16z) and has raised approximately $750K in
+  early funding. It was surfaced as a portfolio company of a16z and added to the
+  API Evangelist network for enrichment. Skypunk is a consumer game developer,
+  not an API producer: its public presence is a studio marketing site and it
+  publishes no developer portal, documentation, OpenAPI, SDKs, or any external
+  API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/skypunk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Game Studio
+- Gaming
+- Video Games
+- Multiplayer
+- Science Fiction
+- Entertainment
+- Startup
 apis: []
+common:
+- type: Website
+  url: https://skypunk.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
